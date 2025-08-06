@@ -1,8 +1,29 @@
-import Theory from './Theory';
+import SocialLogin from './SocialLogin';
+import { Apple } from 'lucide-react';
+
 function App() {
     return (
         <>
-            <Theory></Theory>
+            <SocialLogin
+                bg='blue'
+                icon={<Apple />}
+                name=' Facdbook'
+            ></SocialLogin>
+            <SocialLogin
+                bg='blue'
+                icon={<Apple />}
+                name=' Facdbook'
+            ></SocialLogin>
+            <SocialLogin
+                bg='blue'
+                icon={<Apple />}
+                name=' Facdbook'
+            ></SocialLogin>
+            <SocialLogin
+                bg='blue'
+                icon={<Apple />}
+                name=' Facdbook'
+            ></SocialLogin>
         </>
     );
 }
